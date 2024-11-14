@@ -31,6 +31,21 @@ public class Bookmark {
     private Instant updatedAt;
     // setters & getters
 
+    @ColumnDefault("'DRAFT'")
+    @Column(name = "status", nullable = false)
+    private String status;
+
+    @Column(name = "published_at")
+    private Instant publishedAt;
+
+    public Instant getPublishedAt() {
+        return publishedAt;
+    }
+
+    public void setPublishedAt(Instant publishedAt) {
+        this.publishedAt = publishedAt;
+    }
+
     public Bookmark() {
     }
 
