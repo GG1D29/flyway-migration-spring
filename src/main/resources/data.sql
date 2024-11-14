@@ -1,1 +1,0 @@
-INSERT INTO public.flyway_schema_history (installed_rank, version, description, type, script, checksum, installed_by, installed_on, execution_time, success) VALUES (1, '1', '<< Flyway Baseline >>', 'BASELINE', '<< Flyway Baseline >>', null, 'postgres', '2024-11-14 11:28:46.160212', 0, true);
